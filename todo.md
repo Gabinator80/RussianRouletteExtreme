@@ -1,0 +1,12 @@
+---
+---
+
+# TODO ROULETTE RUSSE SITE
+
+---
+
+- Sidebar
+- Early acess
+- Expliquer pk early acess
+- Mettre des vidéos et personaliser le player des vidéos car c'est super sexy (regarder vidéos sur ce dernier).
+- Et après ne surtout pas oublier de faire des mises à jour sur le programme.

@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+
+}
+
+*::selection {
+    background-color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+/* a:link {
+    color: black;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;    
+}
+
+
+
+
+
+/* .nav{
+    position: absolute, fixed;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav .nav-links li a {
+    top: 0;
+} */
+
+
+
+
+.nav {
+   float: left;
+   position: fixed;
+   background-color: white;
+   display: inline;
+   height: 100%;
+   overflow: hidden;
+   padding: 15px;
+   color: grey;
+   /* width: 19em; */
+}
+
+
+.nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav .nav-links a:active {
+    color: grey;
+}
+
+.nav .nav-links li {
+    margin-top: 15px;
+}
+
+.nav .nav-links  {
+    margin-top: 25px;
+}
+
+#title {
+    font-size: 1.5em;
+}
+
+#title:active {
+    color: grey;
+}
+
+
+
+.title-entrance {
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation: Slider-1 1s ease-in-out;
+}
+
+
+
+
+
+.main{
+    position: absolute;
+    left: 50em;
+    
+}
+
+.main p a {
+    color: white;
+}
+
+
+
+/* .main {
+    width: 1920px;
+    background-color: red;
+}*/
+
+.dow-button-container p a {
+    position: absolute;
+    top: 10em;
+    left: 4em;
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    animation: floating 4s infinite;
+}
+
+.intels-top {
+    color: white;
+    position: absolute;
+    top: 2em;
+    width: 20em;
+    
+}
+
+.intels-top h1 {
+    font-size: 3em;
+}
+
+.intels-top h3 {
+    width: 23em;
+}
+
+@keyframes Slider-1 {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes floating {
+	0%{
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-20px); 
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 992px) {
+    .nav {
+        width: 150px;
+    }
+
+    .main {
+    left: 220px;
+    width: 125px;        
+    }
+
+    .intels-top h1 h3 { 
+        width: 5px;
+    }
+
+    .dow-button-container {
+        position: absolute;
+        left: -120px;
+    }
+
+    .intels-top h3 {
+        display: none;
+    }
+
+}

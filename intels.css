@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+
+}
+
+*::selection {
+    background-color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;    
+}
+
+
+
+
+
+/* .nav{
+    position: absolute, fixed;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav .nav-links li a {
+    top: 0;
+} */
+
+
+
+
+.nav {
+   float: left;
+   position: fixed;
+   background-color: white;
+   display: inline;
+   height: 100%;
+   overflow: hidden;
+   padding: 15px;
+   color: grey;
+   /* width: 19em; */
+   /* border-radius: 10px; */
+}
+
+.nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav .nav-links a:active {
+    color: grey;
+}
+
+.nav .nav-links li {
+    margin-top: 15px;
+}
+
+.nav .nav-links  {
+    margin-top: 25px;
+}
+
+#title {
+    font-size: 1.5em;
+}
+
+#title:active {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+/* .intel h2 {
+
+} */
+.main{
+    position: absolute;
+    left: 56em;
+}
+
+/* .main {
+    width: 1920px;
+    background-color: red;
+}*/
+
+.main .intels-front {
+    position: absolute;
+    color: white;
+    top: 2em;
+    width: 200px;
+}
+
+.intels-front h1 {
+    font-size: 40px;
+}
+
+
+
+.rules-btn a {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    width: 1000px;
+    left: -25px;
+    top: 370px;
+    font-size: 23px;
+    background-color: white;
+    width: 260px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#p-1 {
+    color: white;
+    position: absolute;
+    top: 33em;
+    width: 150px;
+    font-size: 20px;
+}
+
+#ag {
+    color: white;
+}
+
+
+
+#svg-arrow {
+    color: white;
+    width: 59px;
+}
+
+
+
+#svg-arrow:hover {
+    animation: 1s  arrow-anim ;
+}
+
+@keyframes Slider-1 {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav {
+        width: 150px;
+    }
+
+    .main {
+    position: absolute;
+    left: 220px;
+    width: 125px;        
+    }
+
+
+    .main .rules-container {
+        width: 20px;
+    }
+
+}
+
+@keyframes arrow-anim {
+    from {
+        transform: translateX(0em);
+    } 
+    to {
+        transform: translateX(40px);
+    }
+}
